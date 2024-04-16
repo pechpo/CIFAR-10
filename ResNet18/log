@@ -1,0 +1,1300 @@
+nohup: ignoring input
+2024-04-16-12_53_06
+Start Creating Datasets...
+/home/cliper/anaconda3/envs/segvol_gpt/lib/python3.10/site-packages/torchvision/models/_utils.py:208: UserWarning: The parameter 'pretrained' is deprecated since 0.13 and may be removed in the future, please use 'weights' instead.
+  warnings.warn(
+/home/cliper/anaconda3/envs/segvol_gpt/lib/python3.10/site-packages/torchvision/models/_utils.py:223: UserWarning: Arguments other than a weight enum or `None` for 'weights' are deprecated since 0.13 and may be removed in the future. The current behavior is equivalent to passing `weights=None`.
+  warnings.warn(msg)
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 910.0
+当前模型在验证集上的准确率为： 0.091
+Current best, saving model parameters...
+epoch 0: Start Training
+average loss = 1.5715531137423775
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 5542.0
+当前模型在验证集上的准确率为： 0.5542
+Current best, saving model parameters...
+epoch 1: Start Training
+average loss = 1.9780282920922716
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 4330.0
+当前模型在验证集上的准确率为： 0.433
+epoch 2: Start Training
+average loss = 1.4225527124283033
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 6320.0
+当前模型在验证集上的准确率为： 0.632
+Current best, saving model parameters...
+epoch 3: Start Training
+average loss = 1.13601127980997
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 6632.0
+当前模型在验证集上的准确率为： 0.6632
+Current best, saving model parameters...
+epoch 4: Start Training
+average loss = 0.9500826258248034
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 7456.0
+当前模型在验证集上的准确率为： 0.7456
+Current best, saving model parameters...
+epoch 5: Start Training
+average loss = 0.8203587450158482
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 7649.0
+当前模型在验证集上的准确率为： 0.7649
+Current best, saving model parameters...
+epoch 6: Start Training
+average loss = 0.7156253698915719
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 7729.0
+当前模型在验证集上的准确率为： 0.7729
+Current best, saving model parameters...
+epoch 7: Start Training
+average loss = 0.626144093065597
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 7941.0
+当前模型在验证集上的准确率为： 0.7941
+Current best, saving model parameters...
+epoch 8: Start Training
+average loss = 0.5553932838356153
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8054.0
+当前模型在验证集上的准确率为： 0.8054
+Current best, saving model parameters...
+epoch 9: Start Training
+average loss = 0.5043458683422198
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8204.0
+当前模型在验证集上的准确率为： 0.8204
+Current best, saving model parameters...
+epoch 10: Start Training
+average loss = 0.444743720677714
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8098.0
+当前模型在验证集上的准确率为： 0.8098
+epoch 11: Start Training
+average loss = 0.4059788466642459
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8161.0
+当前模型在验证集上的准确率为： 0.8161
+epoch 12: Start Training
+average loss = 0.3590863814083532
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8279.0
+当前模型在验证集上的准确率为： 0.8279
+Current best, saving model parameters...
+epoch 13: Start Training
+average loss = 0.3322790069416308
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8275.0
+当前模型在验证集上的准确率为： 0.8275
+epoch 14: Start Training
+average loss = 0.31898808762573966
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8254.0
+当前模型在验证集上的准确率为： 0.8254
+epoch 15: Start Training
+average loss = 0.30343596170695064
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8276.0
+当前模型在验证集上的准确率为： 0.8276
+epoch 16: Start Training
+average loss = 0.2898120245518395
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8292.0
+当前模型在验证集上的准确率为： 0.8292
+Current best, saving model parameters...
+epoch 17: Start Training
+average loss = 0.27451161164254806
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8153.0
+当前模型在验证集上的准确率为： 0.8153
+epoch 18: Start Training
+average loss = 0.26119666544202796
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8354.0
+当前模型在验证集上的准确率为： 0.8354
+Current best, saving model parameters...
+epoch 19: Start Training
+average loss = 0.2565854284614801
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8406.0
+当前模型在验证集上的准确率为： 0.8406
+Current best, saving model parameters...
+epoch 20: Start Training
+average loss = 0.2531779568178204
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8330.0
+当前模型在验证集上的准确率为： 0.833
+epoch 21: Start Training
+average loss = 0.25461365482487236
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8316.0
+当前模型在验证集上的准确率为： 0.8316
+epoch 22: Start Training
+average loss = 0.23629798730627036
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8325.0
+当前模型在验证集上的准确率为： 0.8325
+epoch 23: Start Training
+average loss = 0.23450299814200629
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8335.0
+当前模型在验证集上的准确率为： 0.8335
+epoch 24: Start Training
+average loss = 0.2316927136466526
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8416.0
+当前模型在验证集上的准确率为： 0.8416
+Current best, saving model parameters...
+epoch 25: Start Training
+average loss = 0.2203363873802435
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8342.0
+当前模型在验证集上的准确率为： 0.8342
+epoch 26: Start Training
+average loss = 0.21709809246392678
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8387.0
+当前模型在验证集上的准确率为： 0.8387
+epoch 27: Start Training
+average loss = 0.21077738348811198
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8306.0
+当前模型在验证集上的准确率为： 0.8306
+epoch 28: Start Training
+average loss = 0.21898024907698646
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8423.0
+当前模型在验证集上的准确率为： 0.8423
+Current best, saving model parameters...
+epoch 29: Start Training
+average loss = 0.21581717094959924
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8387.0
+当前模型在验证集上的准确率为： 0.8387
+epoch 30: Start Training
+average loss = 0.2132953224233545
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8375.0
+当前模型在验证集上的准确率为： 0.8375
+epoch 31: Start Training
+average loss = 0.21107436260714318
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8434.0
+当前模型在验证集上的准确率为： 0.8434
+Current best, saving model parameters...
+epoch 32: Start Training
+average loss = 0.20323991463683283
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8412.0
+当前模型在验证集上的准确率为： 0.8412
+epoch 33: Start Training
+average loss = 0.20114902863963344
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8410.0
+当前模型在验证集上的准确率为： 0.841
+epoch 34: Start Training
+average loss = 0.1969670996593591
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8418.0
+当前模型在验证集上的准确率为： 0.8418
+epoch 35: Start Training
+average loss = 0.19510487190926798
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8464.0
+当前模型在验证集上的准确率为： 0.8464
+Current best, saving model parameters...
+epoch 36: Start Training
+average loss = 0.19603984238811956
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8466.0
+当前模型在验证集上的准确率为： 0.8466
+Current best, saving model parameters...
+epoch 37: Start Training
+average loss = 0.1895651015134665
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8465.0
+当前模型在验证集上的准确率为： 0.8465
+epoch 38: Start Training
+average loss = 0.18753896125208455
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8452.0
+当前模型在验证集上的准确率为： 0.8452
+epoch 39: Start Training
+average loss = 0.18946541569674738
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8391.0
+当前模型在验证集上的准确率为： 0.8391
+epoch 40: Start Training
+average loss = 0.18954167466241711
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8328.0
+当前模型在验证集上的准确率为： 0.8328
+epoch 41: Start Training
+average loss = 0.19133900372555462
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8472.0
+当前模型在验证集上的准确率为： 0.8472
+Current best, saving model parameters...
+epoch 42: Start Training
+average loss = 0.18822262749171104
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8433.0
+当前模型在验证集上的准确率为： 0.8433
+epoch 43: Start Training
+average loss = 0.19170035425418863
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8459.0
+当前模型在验证集上的准确率为： 0.8459
+epoch 44: Start Training
+average loss = 0.18429124606445954
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8455.0
+当前模型在验证集上的准确率为： 0.8455
+epoch 45: Start Training
+average loss = 0.18057347209261249
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8466.0
+当前模型在验证集上的准确率为： 0.8466
+epoch 46: Start Training
+average loss = 0.18483907815080863
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8457.0
+当前模型在验证集上的准确率为： 0.8457
+epoch 47: Start Training
+average loss = 0.17951102540515862
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8481.0
+当前模型在验证集上的准确率为： 0.8481
+Current best, saving model parameters...
+epoch 48: Start Training
+average loss = 0.17989661476720636
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8480.0
+当前模型在验证集上的准确率为： 0.848
+epoch 49: Start Training
+average loss = 0.18423468529130704
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8437.0
+当前模型在验证集上的准确率为： 0.8437
+epoch 50: Start Training
+average loss = 0.18351591321321342
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8492.0
+当前模型在验证集上的准确率为： 0.8492
+Current best, saving model parameters...
+epoch 51: Start Training
+average loss = 0.18287681303799344
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8436.0
+当前模型在验证集上的准确率为： 0.8436
+epoch 52: Start Training
+average loss = 0.17733503329439665
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8381.0
+当前模型在验证集上的准确率为： 0.8381
+epoch 53: Start Training
+average loss = 0.17754600495814135
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8492.0
+当前模型在验证集上的准确率为： 0.8492
+epoch 54: Start Training
+average loss = 0.17933487708861837
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8436.0
+当前模型在验证集上的准确率为： 0.8436
+epoch 55: Start Training
+average loss = 0.17764713239079466
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8447.0
+当前模型在验证集上的准确率为： 0.8447
+epoch 56: Start Training
+average loss = 0.1791448650030663
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8501.0
+当前模型在验证集上的准确率为： 0.8501
+Current best, saving model parameters...
+epoch 57: Start Training
+average loss = 0.17292486308529353
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8463.0
+当前模型在验证集上的准确率为： 0.8463
+epoch 58: Start Training
+average loss = 0.17923850578050643
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8506.0
+当前模型在验证集上的准确率为： 0.8506
+Current best, saving model parameters...
+epoch 59: Start Training
+average loss = 0.17693886566704836
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8567.0
+当前模型在验证集上的准确率为： 0.8567
+Current best, saving model parameters...
+epoch 60: Start Training
+average loss = 0.17869340966399105
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8525.0
+当前模型在验证集上的准确率为： 0.8525
+epoch 61: Start Training
+average loss = 0.17623090554778567
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8533.0
+当前模型在验证集上的准确率为： 0.8533
+epoch 62: Start Training
+average loss = 0.17178126322194792
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8500.0
+当前模型在验证集上的准确率为： 0.85
+epoch 63: Start Training
+average loss = 0.19343214142865267
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8568.0
+当前模型在验证集上的准确率为： 0.8568
+Current best, saving model parameters...
+epoch 64: Start Training
+average loss = 0.18132102563263128
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8249.0
+当前模型在验证集上的准确率为： 0.8249
+epoch 65: Start Training
+average loss = 0.18689301438605824
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8451.0
+当前模型在验证集上的准确率为： 0.8451
+epoch 66: Start Training
+average loss = 0.1778253043850009
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8469.0
+当前模型在验证集上的准确率为： 0.8469
+epoch 67: Start Training
+average loss = 0.17704964389863867
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8514.0
+当前模型在验证集上的准确率为： 0.8514
+epoch 68: Start Training
+average loss = 0.17494238855930183
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8565.0
+当前模型在验证集上的准确率为： 0.8565
+epoch 69: Start Training
+average loss = 0.18050937191508828
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8455.0
+当前模型在验证集上的准确率为： 0.8455
+epoch 70: Start Training
+average loss = 0.17216736810228314
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8510.0
+当前模型在验证集上的准确率为： 0.851
+epoch 71: Start Training
+average loss = 0.1708328571325293
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8486.0
+当前模型在验证集上的准确率为： 0.8486
+epoch 72: Start Training
+average loss = 0.23086787241335494
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8436.0
+当前模型在验证集上的准确率为： 0.8436
+epoch 73: Start Training
+average loss = 0.1833536995771213
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8514.0
+当前模型在验证集上的准确率为： 0.8514
+epoch 74: Start Training
+average loss = 0.19200643216268704
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8463.0
+当前模型在验证集上的准确率为： 0.8463
+epoch 75: Start Training
+average loss = 0.16634596392702752
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8487.0
+当前模型在验证集上的准确率为： 0.8487
+epoch 76: Start Training
+average loss = 0.20378547335585084
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8293.0
+当前模型在验证集上的准确率为： 0.8293
+epoch 77: Start Training
+average loss = 0.19060369910071262
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8626.0
+当前模型在验证集上的准确率为： 0.8626
+Current best, saving model parameters...
+epoch 78: Start Training
+average loss = 0.17947331570779174
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8504.0
+当前模型在验证集上的准确率为： 0.8504
+epoch 79: Start Training
+average loss = 0.1799841634334086
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8557.0
+当前模型在验证集上的准确率为： 0.8557
+epoch 80: Start Training
+average loss = 0.16897322272007076
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8545.0
+当前模型在验证集上的准确率为： 0.8545
+epoch 81: Start Training
+average loss = 0.16234521539256977
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8487.0
+当前模型在验证集上的准确率为： 0.8487
+epoch 82: Start Training
+average loss = 0.163687786271873
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8482.0
+当前模型在验证集上的准确率为： 0.8482
+epoch 83: Start Training
+average loss = 0.16854097482304983
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8563.0
+当前模型在验证集上的准确率为： 0.8563
+epoch 84: Start Training
+average loss = 0.200208021036257
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8518.0
+当前模型在验证集上的准确率为： 0.8518
+epoch 85: Start Training
+average loss = 0.17753503105034843
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8497.0
+当前模型在验证集上的准确率为： 0.8497
+epoch 86: Start Training
+average loss = 0.16832174706501893
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8552.0
+当前模型在验证集上的准确率为： 0.8552
+epoch 87: Start Training
+average loss = 0.16454313437159832
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8552.0
+当前模型在验证集上的准确率为： 0.8552
+epoch 88: Start Training
+average loss = 0.16394647751777128
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8570.0
+当前模型在验证集上的准确率为： 0.857
+epoch 89: Start Training
+average loss = 0.16001379187590778
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8507.0
+当前模型在验证集上的准确率为： 0.8507
+epoch 90: Start Training
+average loss = 0.17009428815957836
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8512.0
+当前模型在验证集上的准确率为： 0.8512
+epoch 91: Start Training
+average loss = 0.24921908938941864
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8232.0
+当前模型在验证集上的准确率为： 0.8232
+epoch 92: Start Training
+average loss = 0.21784687551637047
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8597.0
+当前模型在验证集上的准确率为： 0.8597
+epoch 93: Start Training
+average loss = 0.1662197932481956
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8526.0
+当前模型在验证集上的准确率为： 0.8526
+epoch 94: Start Training
+average loss = 0.15751191964759803
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8581.0
+当前模型在验证集上的准确率为： 0.8581
+epoch 95: Start Training
+average loss = 0.16653222563310552
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8486.0
+当前模型在验证集上的准确率为： 0.8486
+epoch 96: Start Training
+average loss = 0.17127974119525366
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8621.0
+当前模型在验证集上的准确率为： 0.8621
+epoch 97: Start Training
+average loss = 0.15907182572439266
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8506.0
+当前模型在验证集上的准确率为： 0.8506
+epoch 98: Start Training
+average loss = 0.15649342376845904
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8485.0
+当前模型在验证集上的准确率为： 0.8485
+epoch 99: Start Training
+average loss = 0.15491742722856733
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8456.0
+当前模型在验证集上的准确率为： 0.8456
+epoch 100: Start Training
+average loss = 0.15610203943170678
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8503.0
+当前模型在验证集上的准确率为： 0.8503
+epoch 101: Start Training
+average loss = 0.15805770454410548
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8509.0
+当前模型在验证集上的准确率为： 0.8509
+epoch 102: Start Training
+average loss = 0.26422087798198574
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8497.0
+当前模型在验证集上的准确率为： 0.8497
+epoch 103: Start Training
+average loss = 0.23582931821600508
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8583.0
+当前模型在验证集上的准确率为： 0.8583
+epoch 104: Start Training
+average loss = 0.1588804914821356
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8599.0
+当前模型在验证集上的准确率为： 0.8599
+epoch 105: Start Training
+average loss = 0.20798743823275398
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8086.0
+当前模型在验证集上的准确率为： 0.8086
+epoch 106: Start Training
+average loss = 0.16563057816161897
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8503.0
+当前模型在验证集上的准确率为： 0.8503
+epoch 107: Start Training
+average loss = 0.16255985469387743
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8608.0
+当前模型在验证集上的准确率为： 0.8608
+epoch 108: Start Training
+average loss = 0.15969649313118892
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8490.0
+当前模型在验证集上的准确率为： 0.849
+epoch 109: Start Training
+average loss = 0.17712108257669992
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8575.0
+当前模型在验证集上的准确率为： 0.8575
+epoch 110: Start Training
+average loss = 0.2051847667132799
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8158.0
+当前模型在验证集上的准确率为： 0.8158
+epoch 111: Start Training
+average loss = 0.16694788217020873
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8530.0
+当前模型在验证集上的准确率为： 0.853
+epoch 112: Start Training
+average loss = 0.1520223433788592
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8536.0
+当前模型在验证集上的准确率为： 0.8536
+epoch 113: Start Training
+average loss = 0.1513652958856604
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8589.0
+当前模型在验证集上的准确率为： 0.8589
+epoch 114: Start Training
+average loss = 0.1536415962222666
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8535.0
+当前模型在验证集上的准确率为： 0.8535
+epoch 115: Start Training
+average loss = 0.14736232801843374
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8505.0
+当前模型在验证集上的准确率为： 0.8505
+epoch 116: Start Training
+average loss = 0.189059228835681
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8616.0
+当前模型在验证集上的准确率为： 0.8616
+epoch 117: Start Training
+average loss = 0.14494682187898852
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8513.0
+当前模型在验证集上的准确率为： 0.8513
+epoch 118: Start Training
+average loss = 0.14491733121343506
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8606.0
+当前模型在验证集上的准确率为： 0.8606
+epoch 119: Start Training
+average loss = 0.14248742812429183
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8557.0
+当前模型在验证集上的准确率为： 0.8557
+epoch 120: Start Training
+average loss = 0.1601011676196092
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8608.0
+当前模型在验证集上的准确率为： 0.8608
+epoch 121: Start Training
+average loss = 0.142756281890713
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8601.0
+当前模型在验证集上的准确率为： 0.8601
+epoch 122: Start Training
+average loss = 0.15427250786425586
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8312.0
+当前模型在验证集上的准确率为： 0.8312
+epoch 123: Start Training
+average loss = 0.15012859901823936
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8583.0
+当前模型在验证集上的准确率为： 0.8583
+epoch 124: Start Training
+average loss = 0.13859945441039798
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8487.0
+当前模型在验证集上的准确率为： 0.8487
+epoch 125: Start Training
+average loss = 0.1598800808465043
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8643.0
+当前模型在验证集上的准确率为： 0.8643
+Current best, saving model parameters...
+epoch 126: Start Training
+average loss = 0.1448635967632833
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8575.0
+当前模型在验证集上的准确率为： 0.8575
+epoch 127: Start Training
+average loss = 0.14484308895687706
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8634.0
+当前模型在验证集上的准确率为： 0.8634
+epoch 128: Start Training
+average loss = 0.14581071503888876
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8585.0
+当前模型在验证集上的准确率为： 0.8585
+epoch 129: Start Training
+average loss = 0.14442691993051635
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8625.0
+当前模型在验证集上的准确率为： 0.8625
+epoch 130: Start Training
+average loss = 0.13828493452395874
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8577.0
+当前模型在验证集上的准确率为： 0.8577
+epoch 131: Start Training
+average loss = 0.1393854963941315
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8593.0
+当前模型在验证集上的准确率为： 0.8593
+epoch 132: Start Training
+average loss = 0.13731123081530436
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8608.0
+当前模型在验证集上的准确率为： 0.8608
+epoch 133: Start Training
+average loss = 0.13867187868065822
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8593.0
+当前模型在验证集上的准确率为： 0.8593
+epoch 134: Start Training
+average loss = 0.13697393561085572
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8569.0
+当前模型在验证集上的准确率为： 0.8569
+epoch 135: Start Training
+average loss = 0.14051317917510345
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8578.0
+当前模型在验证集上的准确率为： 0.8578
+epoch 136: Start Training
+average loss = 0.14073246158064365
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8630.0
+当前模型在验证集上的准确率为： 0.863
+epoch 137: Start Training
+average loss = 0.1365456914963623
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8614.0
+当前模型在验证集上的准确率为： 0.8614
+epoch 138: Start Training
+average loss = 0.13708620176266748
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8649.0
+当前模型在验证集上的准确率为： 0.8649
+Current best, saving model parameters...
+epoch 139: Start Training
+average loss = 0.13882095434557135
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8620.0
+当前模型在验证集上的准确率为： 0.862
+epoch 140: Start Training
+average loss = 0.13409067326769852
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8548.0
+当前模型在验证集上的准确率为： 0.8548
+epoch 141: Start Training
+average loss = 0.13212689026571312
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8631.0
+当前模型在验证集上的准确率为： 0.8631
+epoch 142: Start Training
+average loss = 0.1328601636611425
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8609.0
+当前模型在验证集上的准确率为： 0.8609
+epoch 143: Start Training
+average loss = 0.13648069995684556
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8617.0
+当前模型在验证集上的准确率为： 0.8617
+epoch 144: Start Training
+average loss = 0.13348998287067818
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8601.0
+当前模型在验证集上的准确率为： 0.8601
+epoch 145: Start Training
+average loss = 0.13807423411014552
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8574.0
+当前模型在验证集上的准确率为： 0.8574
+epoch 146: Start Training
+average loss = 0.1332502406411849
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8629.0
+当前模型在验证集上的准确率为： 0.8629
+epoch 147: Start Training
+average loss = 0.1300508239315436
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8488.0
+当前模型在验证集上的准确率为： 0.8488
+epoch 148: Start Training
+average loss = 0.13216336614812335
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8617.0
+当前模型在验证集上的准确率为： 0.8617
+epoch 149: Start Training
+average loss = 0.13499715748115088
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8609.0
+当前模型在验证集上的准确率为： 0.8609
+epoch 150: Start Training
+average loss = 0.13791291462108732
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8649.0
+当前模型在验证集上的准确率为： 0.8649
+epoch 151: Start Training
+average loss = 0.12993025710693182
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8517.0
+当前模型在验证集上的准确率为： 0.8517
+epoch 152: Start Training
+average loss = 0.13218749367509977
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8637.0
+当前模型在验证集上的准确率为： 0.8637
+epoch 153: Start Training
+average loss = 0.1318731262518194
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8592.0
+当前模型在验证集上的准确率为： 0.8592
+epoch 154: Start Training
+average loss = 0.12691646861953856
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8665.0
+当前模型在验证集上的准确率为： 0.8665
+Current best, saving model parameters...
+epoch 155: Start Training
+average loss = 0.2032852320553967
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8696.0
+当前模型在验证集上的准确率为： 0.8696
+Current best, saving model parameters...
+epoch 156: Start Training
+average loss = 0.13579553643616435
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8596.0
+当前模型在验证集上的准确率为： 0.8596
+epoch 157: Start Training
+average loss = 0.1270733255262192
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8636.0
+当前模型在验证集上的准确率为： 0.8636
+epoch 158: Start Training
+average loss = 0.12680373978786194
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8543.0
+当前模型在验证集上的准确率为： 0.8543
+epoch 159: Start Training
+average loss = 0.1286375562425334
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8602.0
+当前模型在验证集上的准确率为： 0.8602
+epoch 160: Start Training
+average loss = 0.13122427896165048
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8645.0
+当前模型在验证集上的准确率为： 0.8645
+epoch 161: Start Training
+average loss = 0.13132429766816833
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8669.0
+当前模型在验证集上的准确率为： 0.8669
+epoch 162: Start Training
+average loss = 0.12957297179836053
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8575.0
+当前模型在验证集上的准确率为： 0.8575
+epoch 163: Start Training
+average loss = 0.12879941031670036
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8646.0
+当前模型在验证集上的准确率为： 0.8646
+epoch 164: Start Training
+average loss = 0.1258703198986122
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8610.0
+当前模型在验证集上的准确率为： 0.861
+epoch 165: Start Training
+average loss = 0.1273127231425561
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8596.0
+当前模型在验证集上的准确率为： 0.8596
+epoch 166: Start Training
+average loss = 0.12546621306469075
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8556.0
+当前模型在验证集上的准确率为： 0.8556
+epoch 167: Start Training
+average loss = 0.12317826132328746
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8551.0
+当前模型在验证集上的准确率为： 0.8551
+epoch 168: Start Training
+average loss = 0.1279457806350705
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8671.0
+当前模型在验证集上的准确率为： 0.8671
+epoch 169: Start Training
+average loss = 0.12175589774291927
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8586.0
+当前模型在验证集上的准确率为： 0.8586
+epoch 170: Start Training
+average loss = 0.12560506160266863
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8617.0
+当前模型在验证集上的准确率为： 0.8617
+epoch 171: Start Training
+average loss = 0.12890078145237013
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8651.0
+当前模型在验证集上的准确率为： 0.8651
+epoch 172: Start Training
+average loss = 0.131261006914103
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8642.0
+当前模型在验证集上的准确率为： 0.8642
+epoch 173: Start Training
+average loss = 0.12738452855937968
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8589.0
+当前模型在验证集上的准确率为： 0.8589
+epoch 174: Start Training
+average loss = 0.12313306322708108
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8641.0
+当前模型在验证集上的准确率为： 0.8641
+epoch 175: Start Training
+average loss = 0.12224511722453867
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8589.0
+当前模型在验证集上的准确率为： 0.8589
+epoch 176: Start Training
+average loss = 0.12742297846478776
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8618.0
+当前模型在验证集上的准确率为： 0.8618
+epoch 177: Start Training
+average loss = 0.12411955854715631
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8643.0
+当前模型在验证集上的准确率为： 0.8643
+epoch 178: Start Training
+average loss = 0.12858906244269955
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8631.0
+当前模型在验证集上的准确率为： 0.8631
+epoch 179: Start Training
+average loss = 0.1253859293037139
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8716.0
+当前模型在验证集上的准确率为： 0.8716
+Current best, saving model parameters...
+epoch 180: Start Training
+average loss = 0.1266459671679301
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8668.0
+当前模型在验证集上的准确率为： 0.8668
+epoch 181: Start Training
+average loss = 0.12028507207529232
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8593.0
+当前模型在验证集上的准确率为： 0.8593
+epoch 182: Start Training
+average loss = 0.12658648780835702
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8705.0
+当前模型在验证集上的准确率为： 0.8705
+epoch 183: Start Training
+average loss = 0.1171552372661928
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8687.0
+当前模型在验证集上的准确率为： 0.8687
+epoch 184: Start Training
+average loss = 0.12445183247684861
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8565.0
+当前模型在验证集上的准确率为： 0.8565
+epoch 185: Start Training
+average loss = 0.12210136575820728
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8563.0
+当前模型在验证集上的准确率为： 0.8563
+epoch 186: Start Training
+average loss = 0.12580967521943603
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8648.0
+当前模型在验证集上的准确率为： 0.8648
+epoch 187: Start Training
+average loss = 0.12027743279624481
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8604.0
+当前模型在验证集上的准确率为： 0.8604
+epoch 188: Start Training
+average loss = 0.1263995551840423
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8603.0
+当前模型在验证集上的准确率为： 0.8603
+epoch 189: Start Training
+average loss = 0.1285438284385033
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8668.0
+当前模型在验证集上的准确率为： 0.8668
+epoch 190: Start Training
+average loss = 0.18455733205325686
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8695.0
+当前模型在验证集上的准确率为： 0.8695
+epoch 191: Start Training
+average loss = 0.16874871624353976
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8363.0
+当前模型在验证集上的准确率为： 0.8363
+epoch 192: Start Training
+average loss = 0.13572185356824543
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8640.0
+当前模型在验证集上的准确率为： 0.864
+epoch 193: Start Training
+average loss = 0.12718479747708422
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8690.0
+当前模型在验证集上的准确率为： 0.869
+epoch 194: Start Training
+average loss = 0.12232360908517632
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8616.0
+当前模型在验证集上的准确率为： 0.8616
+epoch 195: Start Training
+average loss = 0.12371552524308617
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8600.0
+当前模型在验证集上的准确率为： 0.86
+epoch 196: Start Training
+average loss = 0.12500426030982606
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8588.0
+当前模型在验证集上的准确率为： 0.8588
+epoch 197: Start Training
+average loss = 0.12317257456648083
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8530.0
+当前模型在验证集上的准确率为： 0.853
+epoch 198: Start Training
+average loss = 0.1276899018226721
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8610.0
+当前模型在验证集上的准确率为： 0.861
+epoch 199: Start Training
+average loss = 0.1210542273835633
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8671.0
+当前模型在验证集上的准确率为： 0.8671
+epoch 200: Start Training
+average loss = 0.3629066410411994
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8560.0
+当前模型在验证集上的准确率为： 0.856
+epoch 201: Start Training
+average loss = 0.12844403619660785
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8711.0
+当前模型在验证集上的准确率为： 0.8711
+epoch 202: Start Training
+average loss = 0.12478171105678089
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8544.0
+当前模型在验证集上的准确率为： 0.8544
+epoch 203: Start Training
+average loss = 0.12643488096638608
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8661.0
+当前模型在验证集上的准确率为： 0.8661
+epoch 204: Start Training
+average loss = 0.12018200094564654
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8666.0
+当前模型在验证集上的准确率为： 0.8666
+epoch 205: Start Training
+average loss = 0.115574028839866
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8658.0
+当前模型在验证集上的准确率为： 0.8658
+epoch 206: Start Training
+average loss = 0.1320436708331584
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8646.0
+当前模型在验证集上的准确率为： 0.8646
+epoch 207: Start Training
+average loss = 0.1255479753672029
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8693.0
+当前模型在验证集上的准确率为： 0.8693
+epoch 208: Start Training
+average loss = 0.13934157375758066
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 7748.0
+当前模型在验证集上的准确率为： 0.7748
+epoch 209: Start Training
+average loss = 0.13001033560203287
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8617.0
+当前模型在验证集上的准确率为： 0.8617
+epoch 210: Start Training
+average loss = 0.11946003949834992
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8670.0
+当前模型在验证集上的准确率为： 0.867
+epoch 211: Start Training
+average loss = 0.1206044880822063
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8645.0
+当前模型在验证集上的准确率为： 0.8645
+epoch 212: Start Training
+average loss = 0.12174636328194183
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8562.0
+当前模型在验证集上的准确率为： 0.8562
+epoch 213: Start Training
+average loss = 0.12216762201295207
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8643.0
+当前模型在验证集上的准确率为： 0.8643
+epoch 214: Start Training
+average loss = 0.12768633313143787
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8635.0
+当前模型在验证集上的准确率为： 0.8635
+epoch 215: Start Training
+average loss = 0.13504753601603425
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 7750.0
+当前模型在验证集上的准确率为： 0.775
+epoch 216: Start Training
+average loss = 0.13687759040506742
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8668.0
+当前模型在验证集上的准确率为： 0.8668
+epoch 217: Start Training
+average loss = 0.12055467688344633
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8665.0
+当前模型在验证集上的准确率为： 0.8665
+epoch 218: Start Training
+average loss = 0.12219894717271906
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8658.0
+当前模型在验证集上的准确率为： 0.8658
+epoch 219: Start Training
+average loss = 0.11939885185811276
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8724.0
+当前模型在验证集上的准确率为： 0.8724
+Current best, saving model parameters...
+epoch 220: Start Training
+average loss = 0.11362118268617616
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8631.0
+当前模型在验证集上的准确率为： 0.8631
+epoch 221: Start Training
+average loss = 0.12112913142366055
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8678.0
+当前模型在验证集上的准确率为： 0.8678
+epoch 222: Start Training
+average loss = 0.11563337783510692
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8699.0
+当前模型在验证集上的准确率为： 0.8699
+epoch 223: Start Training
+average loss = 0.12011266807719065
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8620.0
+当前模型在验证集上的准确率为： 0.862
+epoch 224: Start Training
+average loss = 0.11155022781330366
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8640.0
+当前模型在验证集上的准确率为： 0.864
+epoch 225: Start Training
+average loss = 0.11681904058201245
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8702.0
+当前模型在验证集上的准确率为： 0.8702
+epoch 226: Start Training
+average loss = 0.11596135103021757
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8589.0
+当前模型在验证集上的准确率为： 0.8589
+epoch 227: Start Training
+average loss = 0.11562440917490961
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8675.0
+当前模型在验证集上的准确率为： 0.8675
+epoch 228: Start Training
+average loss = 0.1168869738690198
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8614.0
+当前模型在验证集上的准确率为： 0.8614
+epoch 229: Start Training
+average loss = 0.11830870503077683
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8731.0
+当前模型在验证集上的准确率为： 0.8731
+Current best, saving model parameters...
+epoch 230: Start Training
+average loss = 0.11662438328856953
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8683.0
+当前模型在验证集上的准确率为： 0.8683
+epoch 231: Start Training
+average loss = 0.12115558436193977
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8617.0
+当前模型在验证集上的准确率为： 0.8617
+epoch 232: Start Training
+average loss = 0.11631801251929028
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8601.0
+当前模型在验证集上的准确率为： 0.8601
+epoch 233: Start Training
+average loss = 0.12455019812894086
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8650.0
+当前模型在验证集上的准确率为： 0.865
+epoch 234: Start Training
+average loss = 0.12251719258154353
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8750.0
+当前模型在验证集上的准确率为： 0.875
+Current best, saving model parameters...
+epoch 235: Start Training
+average loss = 0.12294020235371857
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8582.0
+当前模型在验证集上的准确率为： 0.8582
+epoch 236: Start Training
+average loss = 0.2414125988301568
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8560.0
+当前模型在验证集上的准确率为： 0.856
+epoch 237: Start Training
+average loss = 0.12160471264427652
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8720.0
+当前模型在验证集上的准确率为： 0.872
+epoch 238: Start Training
+average loss = 0.12363190257463592
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8681.0
+当前模型在验证集上的准确率为： 0.8681
+epoch 239: Start Training
+average loss = 0.12026054960208389
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8694.0
+当前模型在验证集上的准确率为： 0.8694
+epoch 240: Start Training
+average loss = 0.12993064689964723
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8633.0
+当前模型在验证集上的准确率为： 0.8633
+epoch 241: Start Training
+average loss = 0.12658940198512886
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8650.0
+当前模型在验证集上的准确率为： 0.865
+epoch 242: Start Training
+average loss = 0.12077142448780445
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8653.0
+当前模型在验证集上的准确率为： 0.8653
+epoch 243: Start Training
+average loss = 0.12008573269596495
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8676.0
+当前模型在验证集上的准确率为： 0.8676
+epoch 244: Start Training
+average loss = 0.12153593216019982
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8697.0
+当前模型在验证集上的准确率为： 0.8697
+epoch 245: Start Training
+average loss = 0.11619887535516828
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8597.0
+当前模型在验证集上的准确率为： 0.8597
+epoch 246: Start Training
+average loss = 0.1214224133081139
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8632.0
+当前模型在验证集上的准确率为： 0.8632
+epoch 247: Start Training
+average loss = 0.12351949739689454
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8628.0
+当前模型在验证集上的准确率为： 0.8628
+epoch 248: Start Training
+average loss = 0.11488117629322953
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8738.0
+当前模型在验证集上的准确率为： 0.8738
+epoch 249: Start Training
+average loss = 0.120314987822653
+Start Validation
+验证集数据总量： 10000 预测正确的数量： 8686.0
+当前模型在验证集上的准确率为： 0.8686
+Finished Training!
+[1.5715531137423775, 1.9780282920922716, 1.4225527124283033, 1.13601127980997, 0.9500826258248034, 0.8203587450158482, 0.7156253698915719, 0.626144093065597, 0.5553932838356153, 0.5043458683422198, 0.444743720677714, 0.4059788466642459, 0.3590863814083532, 0.3322790069416308, 0.31898808762573966, 0.30343596170695064, 0.2898120245518395, 0.27451161164254806, 0.26119666544202796, 0.2565854284614801, 0.2531779568178204, 0.25461365482487236, 0.23629798730627036, 0.23450299814200629, 0.2316927136466526, 0.2203363873802435, 0.21709809246392678, 0.21077738348811198, 0.21898024907698646, 0.21581717094959924, 0.2132953224233545, 0.21107436260714318, 0.20323991463683283, 0.20114902863963344, 0.1969670996593591, 0.19510487190926798, 0.19603984238811956, 0.1895651015134665, 0.18753896125208455, 0.18946541569674738, 0.18954167466241711, 0.19133900372555462, 0.18822262749171104, 0.19170035425418863, 0.18429124606445954, 0.18057347209261249, 0.18483907815080863, 0.17951102540515862, 0.17989661476720636, 0.18423468529130704, 0.18351591321321342, 0.18287681303799344, 0.17733503329439665, 0.17754600495814135, 0.17933487708861837, 0.17764713239079466, 0.1791448650030663, 0.17292486308529353, 0.17923850578050643, 0.17693886566704836, 0.17869340966399105, 0.17623090554778567, 0.17178126322194792, 0.19343214142865267, 0.18132102563263128, 0.18689301438605824, 0.1778253043850009, 0.17704964389863867, 0.17494238855930183, 0.18050937191508828, 0.17216736810228314, 0.1708328571325293, 0.23086787241335494, 0.1833536995771213, 0.19200643216268704, 0.16634596392702752, 0.20378547335585084, 0.19060369910071262, 0.17947331570779174, 0.1799841634334086, 0.16897322272007076, 0.16234521539256977, 0.163687786271873, 0.16854097482304983, 0.200208021036257, 0.17753503105034843, 0.16832174706501893, 0.16454313437159832, 0.16394647751777128, 0.16001379187590778, 0.17009428815957836, 0.24921908938941864, 0.21784687551637047, 0.1662197932481956, 0.15751191964759803, 0.16653222563310552, 0.17127974119525366, 0.15907182572439266, 0.15649342376845904, 0.15491742722856733, 0.15610203943170678, 0.15805770454410548, 0.26422087798198574, 0.23582931821600508, 0.1588804914821356, 0.20798743823275398, 0.16563057816161897, 0.16255985469387743, 0.15969649313118892, 0.17712108257669992, 0.2051847667132799, 0.16694788217020873, 0.1520223433788592, 0.1513652958856604, 0.1536415962222666, 0.14736232801843374, 0.189059228835681, 0.14494682187898852, 0.14491733121343506, 0.14248742812429183, 0.1601011676196092, 0.142756281890713, 0.15427250786425586, 0.15012859901823936, 0.13859945441039798, 0.1598800808465043, 0.1448635967632833, 0.14484308895687706, 0.14581071503888876, 0.14442691993051635, 0.13828493452395874, 0.1393854963941315, 0.13731123081530436, 0.13867187868065822, 0.13697393561085572, 0.14051317917510345, 0.14073246158064365, 0.1365456914963623, 0.13708620176266748, 0.13882095434557135, 0.13409067326769852, 0.13212689026571312, 0.1328601636611425, 0.13648069995684556, 0.13348998287067818, 0.13807423411014552, 0.1332502406411849, 0.1300508239315436, 0.13216336614812335, 0.13499715748115088, 0.13791291462108732, 0.12993025710693182, 0.13218749367509977, 0.1318731262518194, 0.12691646861953856, 0.2032852320553967, 0.13579553643616435, 0.1270733255262192, 0.12680373978786194, 0.1286375562425334, 0.13122427896165048, 0.13132429766816833, 0.12957297179836053, 0.12879941031670036, 0.1258703198986122, 0.1273127231425561, 0.12546621306469075, 0.12317826132328746, 0.1279457806350705, 0.12175589774291927, 0.12560506160266863, 0.12890078145237013, 0.131261006914103, 0.12738452855937968, 0.12313306322708108, 0.12224511722453867, 0.12742297846478776, 0.12411955854715631, 0.12858906244269955, 0.1253859293037139, 0.1266459671679301, 0.12028507207529232, 0.12658648780835702, 0.1171552372661928, 0.12445183247684861, 0.12210136575820728, 0.12580967521943603, 0.12027743279624481, 0.1263995551840423, 0.1285438284385033, 0.18455733205325686, 0.16874871624353976, 0.13572185356824543, 0.12718479747708422, 0.12232360908517632, 0.12371552524308617, 0.12500426030982606, 0.12317257456648083, 0.1276899018226721, 0.1210542273835633, 0.3629066410411994, 0.12844403619660785, 0.12478171105678089, 0.12643488096638608, 0.12018200094564654, 0.115574028839866, 0.1320436708331584, 0.1255479753672029, 0.13934157375758066, 0.13001033560203287, 0.11946003949834992, 0.1206044880822063, 0.12174636328194183, 0.12216762201295207, 0.12768633313143787, 0.13504753601603425, 0.13687759040506742, 0.12055467688344633, 0.12219894717271906, 0.11939885185811276, 0.11362118268617616, 0.12112913142366055, 0.11563337783510692, 0.12011266807719065, 0.11155022781330366, 0.11681904058201245, 0.11596135103021757, 0.11562440917490961, 0.1168869738690198, 0.11830870503077683, 0.11662438328856953, 0.12115558436193977, 0.11631801251929028, 0.12455019812894086, 0.12251719258154353, 0.12294020235371857, 0.2414125988301568, 0.12160471264427652, 0.12363190257463592, 0.12026054960208389, 0.12993064689964723, 0.12658940198512886, 0.12077142448780445, 0.12008573269596495, 0.12153593216019982, 0.11619887535516828, 0.1214224133081139, 0.12351949739689454, 0.11488117629322953, 0.120314987822653]
+[0.5542, 0.433, 0.632, 0.6632, 0.7456, 0.7649, 0.7729, 0.7941, 0.8054, 0.8204, 0.8098, 0.8161, 0.8279, 0.8275, 0.8254, 0.8276, 0.8292, 0.8153, 0.8354, 0.8406, 0.833, 0.8316, 0.8325, 0.8335, 0.8416, 0.8342, 0.8387, 0.8306, 0.8423, 0.8387, 0.8375, 0.8434, 0.8412, 0.841, 0.8418, 0.8464, 0.8466, 0.8465, 0.8452, 0.8391, 0.8328, 0.8472, 0.8433, 0.8459, 0.8455, 0.8466, 0.8457, 0.8481, 0.848, 0.8437, 0.8492, 0.8436, 0.8381, 0.8492, 0.8436, 0.8447, 0.8501, 0.8463, 0.8506, 0.8567, 0.8525, 0.8533, 0.85, 0.8568, 0.8249, 0.8451, 0.8469, 0.8514, 0.8565, 0.8455, 0.851, 0.8486, 0.8436, 0.8514, 0.8463, 0.8487, 0.8293, 0.8626, 0.8504, 0.8557, 0.8545, 0.8487, 0.8482, 0.8563, 0.8518, 0.8497, 0.8552, 0.8552, 0.857, 0.8507, 0.8512, 0.8232, 0.8597, 0.8526, 0.8581, 0.8486, 0.8621, 0.8506, 0.8485, 0.8456, 0.8503, 0.8509, 0.8497, 0.8583, 0.8599, 0.8086, 0.8503, 0.8608, 0.849, 0.8575, 0.8158, 0.853, 0.8536, 0.8589, 0.8535, 0.8505, 0.8616, 0.8513, 0.8606, 0.8557, 0.8608, 0.8601, 0.8312, 0.8583, 0.8487, 0.8643, 0.8575, 0.8634, 0.8585, 0.8625, 0.8577, 0.8593, 0.8608, 0.8593, 0.8569, 0.8578, 0.863, 0.8614, 0.8649, 0.862, 0.8548, 0.8631, 0.8609, 0.8617, 0.8601, 0.8574, 0.8629, 0.8488, 0.8617, 0.8609, 0.8649, 0.8517, 0.8637, 0.8592, 0.8665, 0.8696, 0.8596, 0.8636, 0.8543, 0.8602, 0.8645, 0.8669, 0.8575, 0.8646, 0.861, 0.8596, 0.8556, 0.8551, 0.8671, 0.8586, 0.8617, 0.8651, 0.8642, 0.8589, 0.8641, 0.8589, 0.8618, 0.8643, 0.8631, 0.8716, 0.8668, 0.8593, 0.8705, 0.8687, 0.8565, 0.8563, 0.8648, 0.8604, 0.8603, 0.8668, 0.8695, 0.8363, 0.864, 0.869, 0.8616, 0.86, 0.8588, 0.853, 0.861, 0.8671, 0.856, 0.8711, 0.8544, 0.8661, 0.8666, 0.8658, 0.8646, 0.8693, 0.7748, 0.8617, 0.867, 0.8645, 0.8562, 0.8643, 0.8635, 0.775, 0.8668, 0.8665, 0.8658, 0.8724, 0.8631, 0.8678, 0.8699, 0.862, 0.864, 0.8702, 0.8589, 0.8675, 0.8614, 0.8731, 0.8683, 0.8617, 0.8601, 0.865, 0.875, 0.8582, 0.856, 0.872, 0.8681, 0.8694, 0.8633, 0.865, 0.8653, 0.8676, 0.8697, 0.8597, 0.8632, 0.8628, 0.8738, 0.8686]
+Generating results...
+2024-04-16-14_53_33

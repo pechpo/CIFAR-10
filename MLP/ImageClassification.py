@@ -50,35 +50,30 @@ class CifarDataset(Dataset):
         # 添加len函数的相关内容
         return self.n
 
-
 # 构建模型
 class Net(nn.Module):
     def __init__(self):
         super(Net, self).__init__()
         # 定义模型的网络结构
-        self.Conv = nn.Sequential(
-            nn.Conv2d(3, 6, 3, padding=1),
-            nn.MaxPool2d(3, 2, padding=1),
-            nn.BatchNorm2d(6),
-            nn.Conv2d(6, 16, 3, padding=1),
-            nn.MaxPool2d(3, 2, padding=1),
-            nn.BatchNorm2d(16),
-            nn.Conv2d(16, 32, 3, padding=1),
-            nn.MaxPool2d(3, 2, padding=1),
-            nn.BatchNorm2d(32),
-            nn.Conv2d(32, 128, 4),
-            nn.BatchNorm2d(128),
-        )
         self.Linear = nn.Sequential(
-            nn.Linear(128, 64),
+            nn.Flatten(),
+            nn.Linear(3072, 2048),
+            nn.BatchNorm1d(2048),
+            nn.Linear(2048, 1024),
             nn.Dropout(),
-            nn.Linear(64, 10),
+            nn.Linear(1024, 256),
+            nn.BatchNorm1d(256),
+            nn.Linear(256, 256),
+            nn.Dropout(),
+            nn.Linear(256, 256),
+            nn.BatchNorm1d(256),
+            nn.Linear(256, 32),
+            nn.Dropout(),
+            nn.Linear(32, 10),
         )
 
     def forward(self, x):
         # 定义模型前向传播的内容
-        x = self.Conv(x)
-        x = torch.squeeze(x)
         x = self.Linear(x)
         return x
 

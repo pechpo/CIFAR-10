@@ -9,6 +9,8 @@ from pathlib import Path
 import numpy as np
 from tqdm import tqdm
 import matplotlib.pyplot as plt
+from torchvision import models, transforms
+import time
 
 device = ( "cuda" if torch.cuda.is_available() else "cpu")
 
@@ -17,84 +19,74 @@ device = ( "cuda" if torch.cuda.is_available() else "cpu")
 class CifarDataset(Dataset):
     def __init__(self, name):
         # 添加数据集的初始化内容
-        self.hasLabel = False
-        if name in ["trainset", "validset"]:
-            self.hasLabel = True
+        self.name = name
         path = Path("./Dataset")
         path_image = path / "image"
         self.data = []
         self.label = []
         with open(path / (name+".txt"), "r") as f:
-            for str in tqdm(f):
-                if self.hasLabel:
+            for str in tqdm(f, disable=log):
+                if self.name != "testset":
                     str, id = str.split()
                     self.label.append(eval(id))
                 else:
                     str = str.strip()
                 image = Image.open(path_image / str)
-                arr = np.array(image)
-                data = torch.Tensor(arr)
-                data = data.permute(2, 0, 1)
-                self.data.append(data)
+                self.data.append(image)
 
         self.n = len(self.data)
 
+        #self.transform = transforms.Compose([
+            #transforms.RandomHorizontalFlip(),
+            ##transforms.RandomPosterize(bits=2),
+            #transforms.RandomCrop(32, padding=4),
+        #])
+        self.transform_train = transforms.Compose([
+            transforms.AutoAugment(policy=transforms.AutoAugmentPolicy.CIFAR10),
+            transforms.ToTensor(),
+            transforms.Normalize(mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225])
+        ])
+        self.transform_test = transforms.Compose([
+            transforms.ToTensor(),
+            transforms.Normalize(mean=[0.485, 0.456, 0.406],std=[0.229, 0.224, 0.225])
+        ])
+
     def __getitem__(self, index):
         # 添加getitem函数的相关内容
-        if self.hasLabel:
-            return self.data[index], self.label[index]
+        if self.name == "trainset":
+            return self.transform_train(self.data[index]), self.label[index]
+        elif self.name == "validset":
+            return self.transform_test(self.data[index]), self.label[index]
         else:
-            return self.data[index]
+            return self.transform_test(self.data[index])
 
     def __len__(self):
         # 添加len函数的相关内容
         return self.n
 
 
-# 构建模型
-class Net(nn.Module):
-    def __init__(self):
-        super(Net, self).__init__()
-        # 定义模型的网络结构
-        self.Conv = nn.Sequential(
-            nn.Conv2d(3, 6, 3, padding=1),
-            nn.MaxPool2d(3, 2, padding=1),
-            nn.BatchNorm2d(6),
-            nn.Conv2d(6, 16, 3, padding=1),
-            nn.MaxPool2d(3, 2, padding=1),
-            nn.BatchNorm2d(16),
-            nn.Conv2d(16, 32, 3, padding=1),
-            nn.MaxPool2d(3, 2, padding=1),
-            nn.BatchNorm2d(32),
-            nn.Conv2d(32, 128, 4),
-            nn.BatchNorm2d(128),
-        )
-        self.Linear = nn.Sequential(
-            nn.Linear(128, 64),
-            nn.Dropout(),
-            nn.Linear(64, 10),
-        )
-
-    def forward(self, x):
-        # 定义模型前向传播的内容
-        x = self.Conv(x)
-        x = torch.squeeze(x)
-        x = self.Linear(x)
-        return x
-
 # 定义 train 函数
 def train():
-    # 参数设置
-    epoch_num = 10
-    val_num = 1
     validation()
     net.train()
     loss_arr = []
     acc_arr = []
+    lr = 0.05
+    global cnt
     for epoch in range(epoch_num):  # loop over the dataset multiple times
         print(f"epoch {epoch}: Start Training")
         total_loss = 0
-        with tqdm(total=len(train_loader)) as p:
+
+        if cnt == 10:
+            cnt = 0
+            lr *= 0.5
+            #print(f"Adjusting learning rate to {lr}")
+        
+        # 定义优化器
+        optimizer = optim.Adam(net.parameters())
+        #optimizer = optim.SGD(net.parameters(), lr=lr, momentum=0.9, weight_decay=5e-4)
+
+        with tqdm(total=len(train_loader), disable=log) as p:
             for data in train_loader:
                 images, labels = data
                 # Forward
@@ -129,7 +121,7 @@ def validation():
     correct = 0
     total = 0
     with torch.no_grad():
-        for data in tqdm(dev_loader):
+        for data in tqdm(dev_loader, disable=log):
             images, labels = data
             # 在这一部分撰写验证的内容
             images = images.to(device)
@@ -140,11 +132,14 @@ def validation():
 
     print("验证集数据总量：", total, "预测正确的数量：", correct)
     print("当前模型在验证集上的准确率为：", correct / total)
-    global best_correct
+    global best_correct, cnt
     if correct > best_correct:
+        cnt = 0
         print("Current best, saving model parameters...")
         torch.save(net.state_dict(), modelPath)
         best_correct = correct
+    else:
+        cnt += 1
     return correct / total
 
 def plot(loss_arr, acc_arr):
@@ -152,7 +147,7 @@ def plot(loss_arr, acc_arr):
     print(acc_arr)
     fig, ax = plt.subplots()
 
-    x = np.linspace(0, 9, num=10)
+    x = np.linspace(0, epoch_num, num=epoch_num)
     ax.plot(x, loss_arr, label='loss') # 作y1 = x 图，并标记此线名为linear
     ax.plot(x, acc_arr, label='accuracy') #作y2 = x^2 图，并标记此线名为quadratic
 
@@ -170,7 +165,7 @@ def test():
     # 将预测结果写入result.txt文件中，格式参照实验1
     net.eval()
     with torch.no_grad(), open(savePath / "result.txt", "w") as f:
-        for data in test_loader:
+        for data in tqdm(test_loader, disable=log):
             images = data
             images = images.to(device)
             pred = net(images)
@@ -178,36 +173,53 @@ def test():
 
 
 if __name__ == "__main__":
-    savePath = Path("./SimpleCNN")
+    
+    print(time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime()))
+
+    # 参数设置
+    training = True
+    log = True
+    savePath = Path("./ResNet18")
     modelPath = savePath / "./model.pth"
+    epoch_num = 250
+    val_num = 1
+    cnt = 0  # 多少次没有validation最优
 
     print("Start Creating Datasets...")
     # 构建数据集
-    if not modelPath.exists():
+    if not modelPath.exists() or training:
         train_set = CifarDataset("trainset")
         dev_set = CifarDataset("validset")
     test_set = CifarDataset("testset")
 
     # 构建数据加载器
-    if not modelPath.exists():
-        train_loader = DataLoader(dataset=train_set, batch_size=32)
-        dev_loader = DataLoader(dataset=dev_set, batch_size=32)
+    if not modelPath.exists() or training:
+        train_loader = DataLoader(dataset=train_set, shuffle=True, batch_size=128)
+        dev_loader = DataLoader(dataset=dev_set, batch_size=128)
     test_loader = DataLoader(dataset=test_set, batch_size=1)
 
     # 初始化模型对象
-    net = Net().to(device)
+    net = models.resnet18(pretrained=False)
+    # 由于CIFAR10图片小，将一开始的卷积层调小，并删除一开始的池化层
+    net.conv1 = nn.Conv2d(in_channels=3, out_channels=64, kernel_size=3, stride=1, padding=1, bias=False)
+    net.maxpool = nn.MaxPool2d(1)
+
+    #for param in net.parameters():
+        #param.requires_grad = False
+
+    num_ftrs = net.fc.in_features 
+    #保持in_features不变，修改out_features=10
+    net.fc = nn.Linear(num_ftrs, 10)
+    net = net.to(device)
 
     # 定义损失函数
     criterion = nn.CrossEntropyLoss()
-
-    # 定义优化器
-    optimizer = optim.Adam(net.parameters())
-
+    
     best_correct = 0
 
     # 模型训练
 
-    if not modelPath.exists():
+    if not modelPath.exists() or training:
         loss_arr, acc_arr = train()
         plot(loss_arr, acc_arr)
     else:
@@ -215,3 +227,5 @@ if __name__ == "__main__":
         
     # 对模型进行测试，并生成预测结果
     test()
+
+    print(time.strftime("%Y-%m-%d-%H_%M_%S", time.localtime()))
